@@ -17,7 +17,7 @@ temperature = 0.4
 model = OpenAI(model_name=model_name, temperature=temperature)
 
 # App framework
-st.title('📰💰 Assistant Leboncoin')
+st.title('📰💰 Aide à la création d'annonce')
 prompt_input = st.text_input('Que souhaites tu vendres?')
 
 
